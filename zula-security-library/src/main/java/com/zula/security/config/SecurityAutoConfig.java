@@ -1,5 +1,6 @@
 package com.zula.security.config;
 
+import com.zula.security.core.JwtTokenProvider;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
